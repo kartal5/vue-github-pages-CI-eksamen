@@ -6,7 +6,8 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "test:unit": "vue-cli-service test:unit",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test:e2e": "cypress open"
   },
   "dependencies": {
     "core-js": "^3.28.0",
@@ -22,6 +23,7 @@
     "@vue/test-utils": "^2.4.6",
     "@vue/vue3-jest": "^27.0.0",
     "babel-jest": "^27.0.6",
+    "cypress": "^13.11.0",
     "eslint": "^8.34.0",
     "eslint-plugin-vue": "^9.9.0",
     "jest": "^27.5.1",
