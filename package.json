@@ -10,7 +10,7 @@
     "test:e2e": "cypress open"
   },
   "dependencies": {
-    "core-js": "^3.28.0",
+    "core-js": "^3.37.1",
     "lodash.uniqueid": "^4.0.1",
     "vue": "^3.2.47"
   },
